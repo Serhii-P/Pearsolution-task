@@ -73,15 +73,15 @@
 
       &--input {
         width: 173px;
-        height: 36px;
+        height: 27px;
         margin-right: 20px;
         background-color: #4443e9;
         border: none;
         font-size: 14px;
         line-height: 17px;
         font-weight: 400;
-        padding-left: 10px;
         color: white;
+        padding: 5px 0 5px 10px;
 
         &::placeholder {
           color: #fff;
