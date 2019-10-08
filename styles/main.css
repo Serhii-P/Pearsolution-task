@@ -256,7 +256,7 @@
       color: #fff; }
       .footer-registration__fields--input {
         width: 173px;
-        height: 27px;
+        height: 22px;
         margin-right: 20px;
         background-color: #4443e9;
         border: none;
@@ -334,7 +334,7 @@
   color: #ff6464; }
 
 .footer-registartion__requirements--active {
-  margin-right: 40px; }
+  margin-right: 19px; }
 
 @media only screen and (max-width: 768px) {
   .footer-registartion__requirements--active {
