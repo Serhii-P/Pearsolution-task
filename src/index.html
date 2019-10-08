@@ -5,10 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <img src="./images/logo.svg" alt="Logo">
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+
+    <div id="dark" class="wrapper">
+      <div id="modal" class="modal">
+        <h1 class="modal-title">Регистрация</h1><br>
+        <form>
+          <div class="modal-field">
+            <input type="text" autocomplete="off"  placeholder="ФИО*" required>
+          </div>
+          <div class="modal-field">
+            <input type="text" autocomplete="off" placeholder="E-mail (Ваш логин)*" required>
+          </div>
+          <div class="modal-field">
+            <input type="number" placeholder="Телефон*" required>
+          </div>
+          <div class="modal-field">
+            <input type="text" autocomplete="off" placeholder="Страна*" required>
+          </div>
+          <div class="modal-field">
+            <input required="" type="text" class="form-control" placeholder="Дата рождени" onfocus="(this.type='date')"/>
+          </div>
+          <div class="modal-field">
+            <input type="password" placeholder="Пароль*" required>
+          </div>
+          <div class="modal-field">
+            <input type="password" placeholder="Повторить пароль*" required>
+          </div>
+          <button class="modal-button" type="submit">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+        </form>
+        <a href="#" onclick="dark.style.display='none'" class="close">
+          <img src="./images/close-btn.svg" alt="Close">
+        </a>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header-logo"></div>
+      <button type="button" class="header-button">Войти</button>
+      <ul class="header-navigation">
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link is-active">Ежескоп</a></li>
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link">Гороскоп 2019</a></li>
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link">Знаки Зодиака</a></li>
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link">Тайна имени</a></li>
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link">Сонник-онлайн</a></li>
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link">Гадания-онлайн</a></li>
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link">Совместимость</a></li>
+        <li class="header-navigation__item"><a href="#" class="header-navigation__link">Статьи</a></li>
+      </ul>
+    </header>
+
+    <main class="page">
+      <div class="page-search">
+        <input type="text" class="page-search__field" placeholder="Рождестственские гадания с собакой">
+        <button class="page-search__button">
+          <img src="./images/search.svg" alt="Search">
+        </button>
+      </div>
+      <h1 class="page-title">Гороскоп для всех</h1>
+      <div class="page-schedule">
+        <button class="page-schedule__button active-btn">НА СЕГОДНЯ</button>
+        <button class="page-schedule__button">НА ЗАВТРА</button>
+        <button class="page-schedule__button">НА НЕДЕЛЮ</button>
+        <button class="page-schedule__button">НА ГОД</button>
+      </div>
+      <p class="page-text">"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+          "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally rationally </p>
+      <h1 class="page-title">Гороскоп на сегодня для всех знаков Зодиака</h1>
+        <div class="page-zodiacs">
+          <img src="./images/Aries.png" alt="Aries">
+          <img src="./images/Taurus.png" alt="Taurus">
+          <img src="./images/Gemini.png" alt="Gemini">
+          <img src="./images/Cancer.png" alt="Cancer">
+          <img src="./images/Leo.png" alt="Leo">
+          <img src="./images/Virgo.png" alt="Virgo">
+          <img src="./images/Libra.png" alt="Libra">
+          <img src="./images/Scorpio.png" alt="Scorpio">
+          <img src="./images/Sagittarius.png" alt="Sagittarius">
+          <img src="./images/Capricorn.png" alt="Capricorn">
+          <img src="./images/Aquarius.png" alt="Aquarius">
+          <img src="./images/Pisces.png" alt="Pisces">
+        </div>
+        <div class="page-sm__icons">
+          <img src="./images/s-m.png" alt="Social-media icons">
+        </div>
+      </main>
+
+      <footer class="footer">
+        <h1 class="footer-title">Подпишитесь и получайте гороскоп на каждый день</h1>
+        <div class="footer-registration">
+          <div class="footer-registration__requirements">
+            <div class="footer-registartion__requirements--active">
+              <img src="./images/star-active.svg" alt="star" class="star">
+              <span class="star-status">Обязательное поле для заполнения</span>
+            </div>
+            <div class="footer-registartion__requirements--active">
+                <img src="./images/star-active.svg" alt="star" class="stare">
+                <span class="star-status">Обязательное поле для заполнения</span>
+            </div>
+            <div class="footer-registartion__requirements--active">
+                <img src="./images/star-active.svg" alt="star" class="star">
+                <span class="star-status">Обязательное поле для заполнения</span>
+            </div>
+          </div>
+          <div class="footer-registration__fields">
+            <input class="footer-registration__fields--input" type="text" placeholder="Email">
+            <input class="footer-registration__fields--input" type="text" placeholder="Маргарита">
+            <input class="footer-registration__fields--input" type="text" placeholder="01.01.1990">
+            <input class="footer-registration__fields--input" type="number" placeholder="+707636783838">
+          </div>
+          <div class="footer-registration__check">
+            <input type="checkbox" checked>
+            <span class="footer-registration__check--text">Я согласен с обработкой моих персональных данных</span>
+          </div>
+          <button type="button" class="footer-registration__button">ОТПРАВИТЬ</button>
+        </div>
+      </footer>
+
   </body>
 </html>
+
