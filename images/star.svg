@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9" width="10" height="9">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-501 -1249L1419 -1249L1419 217L-501 217Z" />
+		</clipPath>
+		<image width="10" height="9" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAABHNCSVQICAgIfAhkiAAAAKlJREFUGJV1zzsuhQEYhOHnnLjWVOhUuhOtTqNR2oF9qMQO2IYdSBQ6KpdEQhRsQSjwav6InDDV5P0mM/lGlSntYwHHv+FoKjiHS8xjE68/l0o1U61UB9VH9VkdVavVbGVUHWJnmFvH4tDxhke840y1VT30v56rbdW42qiu/ghdV5NqPMYX7nEz/T7ucIuv8QBWMBn8Bc4HP8EazAxgGS84wSnCLvawhKdvj8+H2nL5kSwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Регистрация" clip-path="url(#cp1)">
+		<g id="Group 1">
+			<g id="email">
+				<use id="star" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>

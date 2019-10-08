@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1336 -212L584 -212L584 1254L-1336 1254Z" />
+		</clipPath>
+		<image width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABHNCSVQICAgIfAhkiAAAAn1JREFUSIm1lktsTVEUhr9WSavV5no2kYiSCGriTSIm0qQhHpGIgYgBogx1ZmwoYiKCkUfNTEjMvCINE3FJPNIok6IoGtyINulnsHe1PXrcq/dYyRqcs89aX9bZe/1rV6ikWAWwCtgEbASagRwg8BF4BtwGbgJP0pL8kTQFuAJoB7YBdUAP8ALoj+uzgMXAHOAzcBU4AXQVJapJP6h+M9g1das6V61WK6PXqPPU3eqd+O1bddc4+cZ48sWxGPxS3VksOPokdY/aqw6qbaUCD0TYfXVhibDRvkbtitDtxYDL1a+xsonAhn11zNOtzk8DTlY7YnU7yoAN+/6Y61QacJVaUK9nAEOtjdvyXW1KrlcCLcBU4EypvVTECsBloBbYnFysJDR1D5DPCAjwIILXEgRkDHAp8Bz4lCGwG+iNueuSwBxBLQYyBH4jVNgAVCeBEMquIDtLzVUJ9BG0cUqGwBxQT9imH0ngU2AJMCND4AJgNuFsFJLAW0AjsD5D4AZCq3USxtmIqcvUL+pdgxCX2/gNal7tUxvHU5oK9XyUo70ZAI/GXMfTpA11kWG8vFFXlgFrMYh3Xp3zNyCG+Teovor6OhHYe3VAbU37LvnikDqk9hvmY10JoJzarv6MsapnDbeCokAMV4ruGHhPPRIrzhkOVZU6S10X9+th/PaRukU9F5+vqPWlADEMz5NxP3RkqObVx+prw/hR/WA4ILNjbI16Ka5dNIyr37nTbm3D1gS0ElR/CTA99lUf4RbXCdwA3iXiaoHTwD6gA2gDvg/3Yak+TZ0ZvZS9rRtVaUeM/yfgRLw2/lbVC+rUqjLkqxQrAIeBofh7J/1v4GioQPMvh1pzWzJbbugAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Регистрация" clip-path="url(#cp1)">
+		<g id="Поиск">
+			<use id="search" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
